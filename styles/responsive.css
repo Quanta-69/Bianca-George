@@ -1,0 +1,36 @@
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* Your CSS rules for extra small devices */
+  }
+  
+  /* Small devices (tablets, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+    /* Your CSS rules for small devices */
+  
+  }
+  
+  /* Medium devices (desktops, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    /* Your CSS rules for medium devices */
+    .side-nav{
+        width: 30%;
+    }
+    .content{
+        width: 70%;
+    }
+  }
+  
+  /* Large devices (large desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* Your CSS rules for large devices */
+  }
+  
+  /* Extra large devices (extra large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* Your CSS rules for extra large devices */
+  }
+  
+  /* Extra extra large devices (ultra wide screens, 1400px and up) */
+  @media (min-width: 1400px) { 
+    /* Your CSS rules for extra extra large devices */
+  }

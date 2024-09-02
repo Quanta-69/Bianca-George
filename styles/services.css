@@ -1,0 +1,56 @@
+.srvs-container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    &
+    .card{
+        color: white;
+        min-height: 300px;
+        width: 210px;
+        border: 2px solid rgba(255, 255, 255, .5);
+        border-radius:.1cm;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        padding: 20px 10px 20px 10px;
+        transition: .3s ease;
+        & 
+        .svg{
+            border-radius: .1cm;
+            height: 50px;
+            width: 50px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--10-color);
+            & i{
+                color: white;
+                font-size: 40px;
+                transition: .3s ease;
+            }
+        }
+        .info{
+            text-align: center;
+            font-weight: bold;
+        }
+        .text{
+            text-align: center;
+        }
+    }
+    .card:hover{
+        cursor: pointer;
+        transform: translateY(-5px);
+        & .svg{
+            background: white;
+            & i{
+                color: var(--10-color);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+.about-content {
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: transparent;
+    border-radius: 10px;  }
+
+  
+  .about-content p {
+    font-size: 25px;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .about-content p::first-letter{
+    font-size: 50px;
+  }
+  
+  .about-content p:last-child {
+    margin-bottom: 0;
+  }
+  
