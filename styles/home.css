@@ -36,6 +36,7 @@
             border-radius: .5cm;
             border: 2px solid var(--10-color);
             background: none;
+            transition: .3s ease;
         }
         button:hover{
             background: var(--10-color);
