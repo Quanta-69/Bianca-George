@@ -35,11 +35,12 @@
             padding-inline: 20px;
             border-radius: .5cm;
             border: 2px solid var(--10-color);
-            background: none;
+            background: var(--10-color);
             transition: .3s ease;
         }
         button:hover{
-            background: var(--10-color);
+            border: 2px solid var(--10-color);
+            background: none;
             cursor: pointer;
         }
     }

@@ -12,7 +12,7 @@
     font-weight: 500;
 }
 body{
-    background: black;
+    background:linear-gradient(to bottom left, #604583, rgb(18, 25, 26));
 }
 .sect-name{
     width: max-content;
@@ -164,7 +164,6 @@ body{
 .content{
     min-height: 100vh;
     width: 80%;
-    color: wheat;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -185,3 +184,21 @@ body{
     display: block;
 }
 
+.mobile{
+    text-align: center;
+    font-size: small;
+    display: none;
+    color: wheat;
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    padding-block: 100%;
+    padding-inline: 10px;
+
+    & span{
+        color: var(--10-color);
+    }
+    a{
+        color: red;
+    }
+}

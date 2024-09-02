@@ -3,7 +3,7 @@
   margin-block: 20px;
   font-size: 30px;
   padding-inline: 10px;
-  color: #666;
+  color: white;
 }
 
 .contact-info {
@@ -24,8 +24,13 @@
   justify-content: center;
   align-items: center;
   border-radius: .1cm;
+  transition: .3s;
 }
 
+.contact-item:hover{
+  transform: translateY(-5px);
+  cursor: pointer;
+}
 .contact-item i {
   font-size: 26px;
   color: var(--10-color);

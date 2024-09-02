@@ -1,12 +1,23 @@
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) { 
     /* Your CSS rules for extra small devices */
+    .mobile{
+      display: block;
+    }
+    .parent{
+      display: none;
+    }
   }
   
   /* Small devices (tablets, 576px and up) */
   @media (min-width: 576px) and (max-width: 767.98px) { 
     /* Your CSS rules for small devices */
-  
+    .mobile{
+      display: block;
+    }
+    .parent{
+      display: none;
+    }
   }
   
   /* Medium devices (desktops, 768px and up) */
