@@ -185,11 +185,11 @@ body{
 }
 
 .mobile{
+    background: linear-gradient(to bottom left, #513232, black);
     text-align: center;
     font-size: small;
     display: none;
     color: wheat;
-    background: black;
     height: 100vh;
     width: 100vw;
     padding-block: 100%;
